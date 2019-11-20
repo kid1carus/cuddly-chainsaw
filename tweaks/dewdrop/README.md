@@ -1,5 +1,4 @@
-# Cuddly Chainsaw?
-iOS tweaks developed using Objective-C, designed for jailbroken devices.  
+# DewDrop
 
 ## v0.0.1
 Initial release, has some bugs where banners might be darker when using themes that have transparency.
@@ -8,4 +7,7 @@ Initial release, has some bugs where banners might be darker when using themes t
 Fixed the previous issue slightly by changing what view was affected by the colour change.
 
 ## v0.0.3
-Latest release, rewritten a removed iOS 10 method which determined if the banner was banner or in the Notification Center. Currently in testing.
+Rewrote a removed iOS 10 method which determined if the banner was banner or in the Notification Center. Currently in testing.
+
+## v0.0.4
+Latest release, cleaned up the codebase and stopped the colour being added more than once, improving performance.
