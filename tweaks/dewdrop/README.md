@@ -1,5 +1,8 @@
 # DewDrop
 
+## v0.0.6
+Changed the banner detection code, hopefully fixing NC/LS banners being changed.
+
 ## v0.0.5
 Added options which allow the user to enable and disable the tweak (no respring required) and make the banners colour lighter or darker.
 
