@@ -735,7 +735,7 @@ body {
         display: block;
     }
 }
-@media (max-width: 375) {
+@media (max-width: 375px) {
     .intro--banner {
         height:auto
     }
