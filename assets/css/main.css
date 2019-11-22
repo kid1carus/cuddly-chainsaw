@@ -735,22 +735,6 @@ body {
         display: block;
     }
 }
-
-@media (max-width: 375px) {
-    .intro--banner {
-        height:auto
-    }
-    .intro--banner::before,.intro--banner::after {
-        display:none
-    }
-    .intro--banner h1 {
-        margin-top:0
-    }
-    .intro--options {
-        display: none;
-    }
-}
-
 .work {
     position:relative;
     display:-webkit-box;
