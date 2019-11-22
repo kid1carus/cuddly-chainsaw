@@ -3,17 +3,23 @@
 <head>
   <title>Antique's Repo</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
+<script>
+document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+});
+</script>
 <body>
 
 <!-- notification for small viewports and landscape oriented smartphones -->
 <div class="device-notification">
   <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Global">
-    <p>Global</p>
+    <img src="assets/img/logo.png">
+    <p>Home</p>
   </a>
   <p class="device-notification--message">This screen size is too small, please view this site on a larger screen device.</p>
 </div>
@@ -23,8 +29,8 @@
     <div id="viewport" class="l-viewport">
       <div class="l-wrapper">
         <header class="header">
-          <a class="header--logo" href="work">
-            <img src="assets/img/logo.png" alt="Global">
+          <a class="header--logo">
+            <img src="assets/img/logo.png">
             <p>Antique's Repo</p>
           </a>
           <!--<button class="header--cta cta" onclick="#work">Hire Us</button>-->
@@ -57,15 +63,15 @@
                 <img src="assets/img/introduction-visual.png" alt="Welcome">-->
               </div>
               <div class="intro--options">
-                <a href="#0">
+                <a>
                   <h3>Latest Release</h3>
                   <p><b>DewDrop</b> - Notification banners coloured by the banners application colour.</p>
                 </a>
-                <a href="#0">
+                <a>
                   <h3>Upcoming Tweak</h3>
                   <p>Let me know what you want to see! I'll work on a community based idea as my next tweak.</p>
                 </a>
-                <a href="#0">
+                <a>
                   <h3>Basic About</h3>
                   <p>I'm Antique, I'm a developer, gamer and music lover.</p>
                 </a>

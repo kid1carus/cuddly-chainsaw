@@ -3,20 +3,23 @@
 <head>
   <title>Antique's Repo</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="HTML5 website template">
-  <meta name="keywords" content="global, template, html, sass, jquery">
-  <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
+<script>
+document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+});
+</script>
 <body>
 
 <!-- notification for small viewports and landscape oriented smartphones -->
 <div class="device-notification">
-  <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Global">
-    <p>Global</p>
+  <a class="device-notification--logo">
+    <img src="assets/img/logo.png">
+    <p>DewDrop</p>
   </a>
   <p class="device-notification--message">This screen size is too small, please view this site on a larger screen device.</p>
 </div>
@@ -26,8 +29,8 @@
     <div id="viewport" class="l-viewport">
       <div class="l-wrapper">
         <header class="header">
-          <a class="header--logo" href="work">
-            <img src="assets/img/logo.png" alt="Global">
+          <a class="header--logo">
+            <img src="assets/img/logo.png">
             <p>Antique's Repo</p>
           </a>
           <!--<button class="header--cta cta" onclick="#work">Hire Us</button>-->
@@ -61,7 +64,7 @@
               </a>
               </div>
               <div class="intro--options">
-                <a href="">
+                <a>
                   <h3>Latest Release</h3>
                   <p>Added options which allow the user to enable and disable the tweak (no respring required) and make the banners colour lighter or darker.</p>
                 </a>
@@ -84,7 +87,7 @@
               </a>
               </div>
               <div class="intro--options">
-                <a href="">
+                <a>
                   <h3>Old Release</h3>
                   <p>Cleaned up the codebase and stopped the colour being added more than once, improving performance.</p>
                 </a>
@@ -107,7 +110,7 @@
               </a>
               </div>
               <div class="intro--options">
-                <a href="">
+                <a>
                   <h3>Old Release</h3>
                   <p>Rewrote a removed iOS 10 method which determined if the banner was a banner or in the Notification Center. Currently in testing.</p>
                 </a>
@@ -130,7 +133,7 @@
               </a>
               </div>
               <div class="intro--options">
-                <a href="">
+                <a>
                   <h3>Old Release</h3>
                   <p>Fixed the previous issue slightly by changing what view was affected by the colour change.</p>
                 </a>
@@ -153,7 +156,7 @@
               </a>
               </div>
               <div class="intro--options">
-                <a href="">
+                <a>
                   <h3>Initial Release</h3>
                   <p>Initial release, has some bugs where banners might be darker when using themes that have transparency.</p>
                 </a>
