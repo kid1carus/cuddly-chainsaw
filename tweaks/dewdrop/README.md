@@ -1,5 +1,8 @@
 # DewDrop
 
+## v0.0.7
+Adds a new colour detection method which works with transparent icons (ie; Folds) and adds basic support for lock screen notification banners.
+
 ## v0.0.6
 Changed the banner detection code, hopefully fixing NC/LS banners being changed.
 
